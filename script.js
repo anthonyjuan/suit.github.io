@@ -34,21 +34,21 @@ window.onload = function () {
 	
 	gunting[0].addEventListener("click", function() {
 		compNumb = randomChoose();
-		userSelect.innerHTML = "<p>User</p> <img src='gunting.png' height='150' width='120'>";
+		userSelect.innerHTML = "<p>User</p> <img src='img/gunting.png' height='150' width='120'>";
 		if (compNumb == 1) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='gunting2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/gunting2.png' height='120' width='150'>";
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 2) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='kertas2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/kertas2.png' height='120' width='150'>";
 			scoreUser += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 3) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='batu2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/batu2.png' height='120' width='150'>";
 			scoreComputer += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
@@ -71,21 +71,21 @@ window.onload = function () {
 	});
 	kertas[0].addEventListener("click", function() {
 		compNumb = randomChoose();
-		userSelect.innerHTML = "<p>User</p> <img src='kertas.png' height='150' width='120'>";
+		userSelect.innerHTML = "<p>User</p> <img src='img/kertas.png' height='150' width='120'>";
 		if (compNumb == 1) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='gunting2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/gunting2.png' height='120' width='150'>";
 			scoreComputer += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 2) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='kertas2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/kertas2.png' height='120' width='150'>";
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 3) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='batu2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/batu2.png' height='120' width='150'>";
 			scoreUser += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
@@ -110,22 +110,22 @@ window.onload = function () {
 	});
 	batu[0].addEventListener("click", function() {
 		compNumb = randomChoose();
-		userSelect.innerHTML = "<p>User</p> <img src='batu.png' height='150' width='120'>";
+		userSelect.innerHTML = "<p>User</p> <img src='img/batu.png' height='150' width='120'>";
 		if (compNumb == 1) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='gunting2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/gunting2.png' height='120' width='150'>";
 			scoreUser += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 2) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='kertas2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/kertas2.png' height='120' width='150'>";
 			scoreComputer += 1;
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}else if (compNumb == 3) {
-			versus.innerHTML = "<img src='versus.png'>";
-			computerSelect.innerHTML = "<p>Computer</p><img src='batu2.png' height='120' width='150'>";
+			versus.innerHTML = "<img src='img/versus.png'>";
+			computerSelect.innerHTML = "<p>Computer</p><img src='img/batu2.png' height='120' width='150'>";
 			tampilScoreUser.innerHTML = "User = "+scoreUser;
 			tampilScoreComputer.innerHTML = "Computer = "+scoreComputer;
 		}
