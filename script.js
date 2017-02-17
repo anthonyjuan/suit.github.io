@@ -110,7 +110,7 @@ window.onload = function () {
 	});
 	batu[0].addEventListener("click", function() {
 		compNumb = randomChoose();
-		userSelect.innerHTML = "<p>User</p> <img src='batu.PNG' height='150' width='120'>";
+		userSelect.innerHTML = "<p>User</p> <img src='batu.png' height='150' width='120'>";
 		if (compNumb == 1) {
 			versus.innerHTML = "<img src='versus.png'>";
 			computerSelect.innerHTML = "<p>Computer</p><img src='gunting2.png' height='120' width='150'>";
